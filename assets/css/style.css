@@ -1,0 +1,157 @@
+body {
+  background-color: whitesmoke;
+
+}
+
+header {
+  border: 4px solid black;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  background-image: url("../images/kids.jpg");
+
+  
+}
+.instructions {
+  border: 4px solid black;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: rgb(71, 17, 17);
+}
+.container {
+  border: 4px solid black;
+  height: 1400px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("../images/minewithsnow.jpg");
+  background-position: top;
+  border-image-width: 80%;
+
+ 
+
+}
+h1, h2 {
+  font-size: 50px;
+  color: rgb(240, 240, 240);
+  font-weight: bolder;
+  
+}
+h3 {
+  font-size: 30px;
+  color:red;
+  font-weight: bold;
+  
+}
+p{
+  color: ivory;
+}
+.currentScore {
+  border: 4px solid black;
+  height: 50px;
+  width: 40%;
+  margin: 5px auto;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(35, 115, 219);
+  font-weight: bolder;
+  background-color: rgb(71, 17, 17);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.randomNumber {
+  border: 4px solid black;
+  height: 100px;
+  width: 40%;
+  margin: 5px auto;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(35, 115, 219);
+  font-weight: bolder;
+  background-color: rgb(71, 17, 17);
+}
+.totalWins {
+  border: 4px solid black;
+  height: 50px;
+  width: 40%;
+  margin: 5px auto;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(35, 115, 219);
+  font-weight: bolder;
+  background-color: rgb(71, 17, 17);
+  
+}
+.totalLosses {
+  border: 4px solid black;
+  height: 50px;
+  width: 40%;
+  margin: 5px auto;
+  font-size: 20px;
+  text-align: left;
+  color:  rgb(35, 115, 219);
+  font-weight: bolder;
+  background-color: rgb(71, 17, 17);
+}
+.crystals {
+  border: 4px solid black;
+  height: 400px;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 20px;
+  text-align: center;
+  color:  rgb(35, 115, 219);
+  font-weight: bolder;
+  background-image: url("../images/mineshaft.jpg");
+ 
+}
+.crystal1 {
+  border: 4px solid rgb(117, 18, 18);
+  height: 100px;
+  width: 100px;
+  margin: 5px auto;
+  text-align: center;
+  color:  rgb(35, 115, 219);
+  
+ 
+}
+.crystal2  {
+  border: 4px solid rgb(117, 18, 18);
+  height: 100px;
+  width: 100px;
+  margin:5px auto;
+  text-align: center;
+  color:  rgb(35, 115, 219);
+  
+ 
+}
+.crystal3 {
+  border: 4px solid rgb(117, 18, 18);
+  height: 100px;
+  width: 100px;
+  margin: 5px auto;
+  text-align: center;
+  color:  rgb(35, 115, 219);
+  
+ 
+}
+.crystal4 {
+  border: 4px solid rgb(117, 18, 18);
+  height: 100px;
+  width: 100px;
+  margin: 5px auto;
+  text-align: center;
+  color:  rgb(35, 115, 219);
+  
+ 
+}
