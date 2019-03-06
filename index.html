@@ -17,8 +17,8 @@
   <body>
     <div class="container">
       <header>
-        <h1>Diamond</h1>
-        <h2>Mine</h2>
+        <h1>Diamond Mine</h1>
+        <h2>An age old game</h2>
         <h3><mark>Fun for all ages</mark></h3>
       </header>
 
@@ -30,25 +30,32 @@
             If your score exceeds the targed number the mine collapses...people die and the ecosystem suffers. If you reach the target number your profits increase and stocks soar....lets go   </p>
        
       </div> 
-      <div class="WinLoose" id="totalScores" >
-        <div class="totalWins" >For What Ends?<p id="winCount">0</p></div>
-        <div class="totalLosses" >Total Ecological Damage!<p id ="lossCount">0</p></div>
-      </div>
-      <div class="randomNumber">Target Number: <p id="randomNumberGen">0</p><br/>Minerals Mined<p id="currentNumber">0</p></div>
+   
+      
       <div class="crystals">
-        <h3>Bounty From the Earth</h3>
         <button id = crystalB1>   <div class="crystal1"><img src="assets/images/diamond.jpg" alt="diamond" id="crystalnumber1"></div></button>
         <button id = crystalB2>  <div class="crystal2"><img src="assets/images/gold.jpg" alt="gold" id="crystalnumber2"></div></button>
         <button id = crystalB3>  <div class="crystal3"><img src="assets/images/sunstone_rough.jpg" alt="Sunset rough" id="crystalnumber3"></div></button>
         <button id = crystalB4> <div class="crystal4"><a id="number4"></a><img src="assets/images/Dysprosium.jpg" alt="Dysprosium"></div></button>
         
+        <div class="currentScoreBox">
+            Target Number <p id="randomNumberGen">0</p><br/>Minerals Mined<p id="currentScore">0</p>
+          </div>
+  
+        <div class="WinLoose" id="totalScores" >
+            <div class="totalWins" >Total Profits?<p id="winCount">0</p></div>
+            <div class="totalLosses" >Total Ecological Damage!<p id ="lossCount">0</p></div>
+          </div>
+
       </div>
-      <div class="currentScore">
-        <h3>Current Score</h3>
-      </div>
+
+      
+
+
+      
     </div>
     <script rel="stylesheet" type="text/javascript" src="assets/javascript/game.js" > </script>
      <!--jquery-->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </body>
 </html>
