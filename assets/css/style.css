@@ -19,7 +19,7 @@ header {
   height: 100px;
   width: 50%;
   margin: 0 auto;
-  font-size: 17px;
+  font-size: 14px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
@@ -28,7 +28,7 @@ header {
 .container {
   border: 10px solid ivory;
   border-style: double groove;
-  height: 1400px;
+  height: 1000px;
   width: 90%;
   margin: 0 auto;
   font-size: 20px;
@@ -104,8 +104,8 @@ p {
 .crystals {
   border: 10px solid ivory;
   border-style: double groove;
-  height: 500px;
-  width: 40%;
+  height: 440px;
+  width: 37%;
   margin: 10px auto;
   font-size: 20px;
   text-align: center;

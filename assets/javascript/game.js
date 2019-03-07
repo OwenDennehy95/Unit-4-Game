@@ -22,7 +22,7 @@ function reset() {
    //HTML//
    $('#randomNumberGen').html(randNum);
    $('#winCount').html(finalScore);
-   start();
+   start(0);
 }
 
 function start() {
@@ -36,20 +36,20 @@ function start() {
    finalScore = 0;
 
    $('#randomNumberGen').html(randNum);
-   $('#winCount').html(finalScore);
+   $('#currentScore').html(finalScore);
 
    // random value crystals//
-   $('#crystalB1').attr("value", crys1);
-   var test = $('#crystalB1').attr("value");
+   $('#crystalnumber1').attr("value", crys1);
+   var test = $('#crystalnumber1').attr("value");
 
-   $('#crystalB2').attr('value', crys2);
-   var test = $('#crystalB2').attr("value");
+   $('#crystalnumber2').attr('value', crys2);
+   var test = $('#crystalnumber2').attr("value");
 
-   $('#crystalB3').attr("value", crys3);
-   var test = $('#crystalB3').attr("value");
+   $('#crystalnumber3').attr("value", crys3);
+   var test = $('#crystalnumber3').attr("value");
 
-   $('#crystalB4').attr("value", crys4);
-   var test = $('#crystalB4').attr("value");
+   $('#crystalnumber4').attr("value", crys4);
+   var test = $('#crystalnumber4').attr("value");
 
    //When clicked saves to Final score
    //added the .off() because it will repeat the click twice without it and save the last number that
@@ -60,21 +60,21 @@ function start() {
        finalScore = parseInt(finalScore) + parseInt(test1);
        console.log('Crystal*  ' + test1);
        console.log('finalScore***  ' + finalScore);
-       $('#winCount').html(finalScore);
+       $('#currentScore').html(finalScore);
 
        if (randNum === finalScore) {
            alert('win');
            win++;
-           $('.winCount').html(win);
-           $('#winCount').html(0);
+           $('#winCount').html(win);
+           $('#currentScore').html(0);
            reset();
 
        }
        else if (finalScore > randNum) {
            alert('loser');
            loss++;
-           $('.loss').html(loss);
-           $('#winCount').html(0);
+           $('#lossCount').html(loss);
+           $('#currentScore').html(0);
            reset();
        }
 
