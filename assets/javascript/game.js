@@ -42,7 +42,7 @@ function start() {
    $('#crystalnumber1').attr("value", crys1);
    var test = $('#crystalnumber1').attr("value");
 
-   $('#crystalnumber2').attr('value', crys2);
+   $('#crystalnumber2').attr("value", crys2);
    var test = $('#crystalnumber2').attr("value");
 
    $('#crystalnumber3').attr("value", crys3);
@@ -63,7 +63,7 @@ function start() {
        $('#currentScore').html(finalScore);
 
        if (randNum === finalScore) {
-           alert('win');
+           alert('winCount');
            win++;
            $('#winCount').html(win);
            $('#currentScore').html(0);
@@ -71,7 +71,7 @@ function start() {
 
        }
        else if (finalScore > randNum) {
-           alert('loser');
+           alert('lossCount');
            loss++;
            $('#lossCount').html(loss);
            $('#currentScore').html(0);
